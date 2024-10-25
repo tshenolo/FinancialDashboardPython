@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Run the application directly with python
-CMD ["python", "app.py"]
+CMD ["python", "financial.py"]
