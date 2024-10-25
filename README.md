@@ -29,7 +29,7 @@ A Flask-based financial dashboard that enables users to upload CSV files contain
 
 4. Run the app:
    ```bash
-   python app.py
+   python financial.py
    ```
    The app will be available at http://localhost:5000/.
 
@@ -60,7 +60,7 @@ This will start the application in a Docker container, making it accessible on p
   - Savings Summary: Displays total income, total expenses, and savings with the savings percentage.
 
 ## Files
-- app.py: Main application file with routes and logic for processing the CSV file and generating graphs.
+- financial.py: Main application file with routes and logic for processing the CSV file and generating graphs.
 - templates/index.html: Template for displaying the dashboard with charts.
 - requirements.txt: Dependencies for the project.
 
