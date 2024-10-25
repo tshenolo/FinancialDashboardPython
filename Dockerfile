@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose port 5000 for the Flask app
 EXPOSE 5000
 
-# Run the application directly with python
-CMD ["python", "financial.py"]
+# Run the application, binding to all interfaces
+CMD ["flask", "run", "--host=0.0.0.0"]
