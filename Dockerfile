@@ -13,5 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose port 5000 for the Flask app
 EXPOSE 5000
 
+# Set the FLASK_APP environment variable to point to financial.py
+ENV FLASK_APP=financial.py
+
 # Run the application, binding to all interfaces
 CMD ["flask", "run", "--host=0.0.0.0"]
